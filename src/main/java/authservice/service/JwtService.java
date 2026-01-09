@@ -12,7 +12,7 @@ public class JwtService {
         return Jwt.issuer("https://miempresa.com/issuer")
                 .upn(username)
                 .groups(Set.of(role))
-                .expiresIn(Duration.ofMinutes(1))
+                .expiresIn(Duration.ofMinutes(5))
                 .sign();
     }
 

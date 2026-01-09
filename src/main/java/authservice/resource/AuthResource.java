@@ -1,4 +1,4 @@
-package authservice.controller;
+package authservice.resource;
 
 import authservice.dto.JwtResponse;
 import authservice.dto.LoginRequest;
